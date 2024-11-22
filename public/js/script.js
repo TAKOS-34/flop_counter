@@ -19,3 +19,11 @@ function toggleHeader(){
 function disableHeader(){
     document.querySelector(".header").classList.remove("toggle");
 }
+
+function toggleChooseName(){
+    document.querySelector(".chooseName").classList.add("toggle");
+}
+
+function disableChooseName(){
+    document.querySelector(".chooseName").classList.remove("toggle");
+}
